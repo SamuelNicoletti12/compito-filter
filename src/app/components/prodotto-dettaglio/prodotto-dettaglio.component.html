@@ -1,0 +1,10 @@
+<div class="col" *ngIf="oggetto">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-text">{{ oggetto.title }}</h5>
+      <p class="card-text">{{ oggetto.body }}</p>
+      <p class="card-text">{{ oggetto.date | date }}</p>
+      <p class="card-text">{{ oggetto.category }}</p>
+    </div>
+  </div>
+</div>

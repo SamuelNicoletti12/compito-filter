@@ -3,10 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProdottoDettaglioComponent } from './components/prodotto-dettaglio/prodotto-dettaglio.component';
+import { CreazioneListaComponent } from './components/creazione-lista/creazione-lista.component';
+import { PreferitiComponent } from './components/preferiti/preferiti.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProdottoDettaglioComponent,
+    CreazioneListaComponent,
+    PreferitiComponent,
   ],
   imports: [
     BrowserModule,
