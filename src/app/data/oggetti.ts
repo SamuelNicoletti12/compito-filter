@@ -1,4 +1,4 @@
-export const OGGETTI = {
+export const BLOG = {
     "posts": [
         {
             "id": 1,
